@@ -1,0 +1,102 @@
+/* RsPaper Dark*/
+*{color:hsl(0,0%,80%);font: 13px}
+#TopButtons{border-bottom:1px solid hsl(240,1%,15%)}
+#abrir,#salvar,#exportar,#novo_projeto,#preferencias,#modo_escuro{background-color:hsl(0,0%,20%);border:2px solid hsl(0,0%,20%);border-color:hsl(0,0%,20%);border-radius:8px;height:20px;padding:5px;width:95px}
+/* #abrir,#salvar,#exportar,#novo_projeto,#preferencias,#modo_escuro{padding-left:24px}
+#abrir,#salvar,#exportar,#novo_projeto,#preferencias,#ordenar,#artigos_selecionados,#artigos_interesse,#artigos_descartados,#estatisticas{background-position:left center;background-repeat:no-repeat}
+#abrir{background-image:url(../styles/dark/abrir.png)} /* Implementação de icones personalizados para o tema escuro */
+/* #salvar{background-image:url(../styles/dark/salvar.png)}
+#exportar{background-image:url(../styles/dark/exportar.png)}
+#novo_projeto{background-image:url(../styles/dark/novo.png)}
+#preferencias{background-image:url(../styles/dark/preferencias.png)}
+#ordenar{background-image:url(../styles/dark/ordenar.png)}
+#artigos_selecionados{background-image:url(../styles/dark/buscar.png)}
+#artigos_interesse{background-image:url(../styles/dark/interesse.png)}
+#artigos_descartados{background-image:url(../styles/dark/descartados.png)}
+#estatisticas{background-image:url(../styles/dark/estatisticas.png);background-position:top center;border-left:3px solid hsl(0,0%,18%);height:45px;padding:5px;width:125px}
+#pag_primeira,#pag_anterior,#pag_prox,#pag_ultima{background-color:hsl(0,0%,18%);background-position:center center;background-repeat:no-repeat;border-color:hsl(0,0%,20%)}
+#pag_primeira{background-image:url(../styles/dark/primeira.png)}
+#pag_anterior{background-image:url(../styles/dark/anterior.png)}
+#pag_prox{background-image:url(../styles/dark/proxima.png)}
+#pag_ultima{background-image:url(../styles/dark/ultima.png)}
+#like{image:url(../styles/dark/like.png)}
+#dislike{image:url(../styles/dark/dislike.png)} */
+#abrir:hover,#salvar:hover,#exportar:hover,#novo_projeto:hover,#preferencias:hover,#modo_escuro:hover,#abrir:focus,#salvar:focus,#exportar:focus,#novo_projeto:focus,#preferencias:focus,#modo_escuro:focus{background-color:hsl(0,0%,25%);border-bottom:1px solid hsl(240,1%,15%)}
+#abrir:pressed,#salvar:pressed,#exportar:pressed,#novo_projeto:pressed,#preferencias:pressed,#modo_escuro:pressed{background-color:hsl(0,0%,18%);border-bottom:1px;border-top:1px solid hsl(240,1%,15%)}
+#ordenar:disabled,#artigos_selecionados:disabled,#artigos_interesse:disabled,#artigos_descartados:disabled,#estatisticas:disabled{background-color:hsl(0,0%,20%);color: hsl(0,0%,50%)}
+#ordenar,#artigos_selecionados,#artigos_interesse,#artigos_descartados,#estatisticas{background-color:hsl(0,0%,25%);border:1px solid hsl(0,0%,30%);border-radius:5px;height:25px;padding:5px;width:145px}
+#artigos_por_pagina:hover,#artigos_por_pagina:focus{border:1px solid hsl(0,0%,30%)}
+#ordenar:checked{background-color:hsl(0,0%,15%);border: 2px solid hsl(0,0%,30%);}
+#artigos_selecionados:checked,#artigos_interesse:checked,#artigos_descartados:checked{border:2px solid hsl(0,0%,80%);padding:4px}
+#ordenar:hover,#ordenar:focus,#artigos_selecionados:hover,#artigos_interesse:hover,#artigos_descartados:hover,#artigos_selecionados:focus,#artigos_interesse:focus,#artigos_descartados:focus,#estatisticas:hover,#estatisticas:focus{border:2px solid hsl(0,0%,30%);padding:4px}
+#ordenar{font: 14px; font-weight:600;height: 45px;}
+#ordenar:pressed,#artigos_selecionados:pressed,#artigos_interesse:pressed,#artigos_descartados:pressed{background-color:hsl(0,0%,20%);border:2px solid hsl(0,0%,35%)}
+#ordenar:pressed{background-color:hsl(0,0%,50%)}
+#article{background-color:hsl(0,0%,0%)}
+#pag_primeira,#pag_anterior,#pag_prox,#pag_ultima,#pag_atual{border-radius:5px;padding:3px}
+#pag_primeira:hover,#pag_anterior:hover,#pag_prox:hover,#pag_ultima:hover,#pag_atual:hover{border:0;border-bottom:1px solid hsl(0,0%,30%);background-color: hsl(0,0%,25%)}
+#pag_primeira:focus,#pag_anterior:focus,#pag_prox:focus,#pag_ultima:focus,#pag_atual:focus{border:1px solid hsl(0,0%,30%);border-bottom:1px solid hsl(0,0%,30%)}
+#pag_primeira:pressed,#pag_anterior:pressed,#pag_prox:pressed,#pag_ultima:pressed{background-color:hsl(0,0%,15%);border-bottom:1px;border-top:1px solid hsl(0,0%,10%)}
+#Artigos,#titulo_artigo,#autor_artigo,#ano_artigo,#citacoes_artigo{border:0;color:hsl(41,53%,67%)}
+#RolagemArtigos{background-color:hsl(0,0%,12%);border-radius:5px}
+#titulo_artigo{font: 11pt;font-weight:bold; text-decoration: underline}
+#abstract_artigo{font: 10.5pt}
+#like,#dislike{background-color:none;border-radius:10px;height:20px;padding:0;width:20px}
+#like:hover,#dislike:hover,#like:focus,#dislike:focus{border:1px solid hsl(0,0%,30%);padding:1px; background-color: hsl(0,0%,15%)}
+#line{border:0;border-bottom:1px solid hsl(0,0%,20%)}
+QScrollBar:vertical{background-color:hsl(240,1%,15%);border-radius:4px;margin:0 0 0 2px;width:10px}
+QScrollBar::handle:vertical,QScrollBar::handle:hover{background-color:hsl(0,0%,30%);border-radius:4px}
+QScrollBar::handle:hover{background-color:hsl(0,0%,35%)}
+QScrollBar::add-line:vertical,QScrollBar::sub-line:vertical,QScrollBar::add-page:vertical,QScrollBar::sub-page:vertical{background-color:none;border:none}
+#Abstract{background-color:hsl(0,0%,12%)}
+#Abstract #widget{border-top: 1px solid hsl(0,0%,20%)}
+#Abstract #titulo{font: 11pt;font-weight:bold; text-decoration: underline;color:hsl(41,53%,67%)}
+#Abstract #autor{color:hsl(101,29%,47%);font: 10.5pt}
+#Abstract #abstract_text{font: 10.5pt}
+#DefinirFiltro QCheckBox::indicator{background-color:hsl(0,0%,40%);border:1px solid hsl(0,0%,30%);border-radius:2px;height:13px;width:13px}
+#DefinirFiltro QCheckBox::indicator:checked{background-color:hsl(200,90%,30%);image: url(styles/dark/check.png)} /* O endereço está correto para a compilação do autopytoexe em modo arquivo único */
+#textEdit{border:1px solid hsl(240,1%,15%);border-bottom:1px solid hsl(0,0%,80%);border-radius:5px}
+#Preferencias,#Pesquisar,#ok_button,#cancel_button,#apply_button{background-color:hsl(0,0%,20%);border:1px solid hsl(0,0%,30%);border-radius:5px;padding:5px}
+#Pesquisar{height:25px;width:125px}
+#ok_button,#cancel_button,#apply_button{width:70px}
+#Preferencias:hover,#Pesquisar:hover,#Preferencias:focus,#Pesquisar:focus,#ok_button:hover,#cancel_button:hover,#apply_button:hover,#ok_button:focus,#cancel_button:focus,#apply_button:focus{border:2px solid hsl(0,0%,35%);padding:4px}
+#Preferencias:pressed,#Pesquisar:pressed,#ok_button:pressed,#cancel_button:pressed,#apply_button:pressed{background-color:hsl(0,0%,30%);border:1px solid hsl(0,0%,35%)}
+#PesquisaAvancada{background-color:hsl(240,1%,20%);border:0;color:hsl(195,75%,78%);font-weight:600;height:25px;width:130px}
+#PalavrasChave,QComboBox,QLineEdit,QPushButton{background-color:hsl(0,0%,25%);border-radius:5px;color:hsl(0,0%,80%);padding:2px 5px}
+#PalavrasChave{background-color:hsl(200,90%,40%);border-radius:5px;color:hsl(0, 0%, 100%);padding:5px}
+#PalavrasChave:hover,#PalavrasChave:focus{background-color:hsl(200,90%,50%)}
+#PalavrasChave:pressed{background-color:hsl(200,90%,20%)}
+QComboBox{background-color:hsl(0,0%,22%);border:1px solid hsl(0,0%,30%);border-radius:5px;color:hsl(0,0%,80%);padding:2px 5px}
+QComboBox::drop-down{border:1px solid hsl(0,0%,40%);border-radius:5px;height:21px;width:21px}
+QComboBox::down-arrow{image: url(styles/dark/down.png)} /* O endereço está correto para a compilação do autopytoexe em modo arquivo único */
+QComboBox::drop-down:hover{background-color:hsl(0,0%,20%);border:1px solid hsl(0,0%,50%);border-bottom:1px solid hsl(0,0%,60%)}
+QComboBox::drop-down:pressed{border:1px solid hsl(0,0%,70%)}
+QComboBox QAbstractItemView{background-color:hsl(0,0%,20%);border:1px solid hsl(0,0%,50%);color:hsl(0,0%,80%)}
+QComboBox QAbstractItemView::item:disabled{color:hsl(0,0%,50%);text-align:right}
+QComboBox::separator{border:1px dotted hsl(0,0%,50%);height:1px}
+QLineEdit{border-bottom:1px solid hsl(0,0%,50%)}
+QPushButton{border:1px solid hsl(0,0%,50%);width:70px}
+QPushButton:hover,QPushButton:focus{border:2px solid hsl(0,0%,60%);padding:4px}
+QPushButton:pressed{background-color:hsl(0,0%,70%)}
+QProgressBar{border:1px solid hsl(0,0%,50%);border-radius:5px;color:hsl(0,0%,80%)}
+QProgressBar::chunk{background-color:hsl(0,0%,30%)}
+QTabWidget{background-color:hsl(0,0%,25%);border:none}
+QTabWidget::pane{background-color:hsl(0,0%,25%);border:1px solid hsl(0,0%,35%);top:-1px}
+QTabBar::tab{background-color:hsl(0,0%,20%);border:1px solid hsl(0,0%,35%);border-top-left-radius:4px;border-top-right-radius:4px;color:hsl(0,0%,80%);margin-right:1px;padding:4px}
+QTabBar::tab:selected{background-color:hsl(0,0%,25%);border-bottom-color:hsl(0,0%,25%)}
+QTabBar::tab:!selected{margin-top:2px}
+QTabBar::tab:hover{background-color:hsl(0,0%,40%)}
+#TelaPrincipal,#TopButtons,#Artigos,#DefinirFiltro{background-color:hsl(240,1%,20%)}
+#artigos_selecionados,#estatisticas,#label_artigos_por_pagina,#label_ordenados{margin-top:10px}
+#estatisticas{height: 45px;width: 125px;border-left:3px solid hsl(0,0%,30%)}
+#estatisticas:hover,#estatisticas:focus{border-left:3px solid hsl(0,0%,30%)}
+#estatisticas:pressed{background-color:hsl(0,0%,20%);border-left:3px solid hsl(0,0%,30%)}
+#pag_atual,#DefinirFiltro QTextEdit{background-color:hsl(0,0%,25%)}
+#like:pressed,#dislike:pressed,QMessageBox,QDialog,QProgressBar{background-color:hsl(0,0%,20%)}
+QMessageBox{background-color:hsl(0,0%,20%);border:1px solid hsl(0,0%,35%);color:hsl(0,0%,80%)}
+QMessageBox QLabel{color:hsl(0,0%,80%)}
+QMessageBox QPushButton{background-color:hsl(0,0%,20%);border:1px solid hsl(0,0%,30%);border-radius:5px;padding:5px;width:70px}
+QMessageBox QPushButton:hover,QMessageBox QPushButton:focus{border:2px solid hsl(0,0%,35%);padding:4px}
+QMessageBox QPushButton:pressed{background-color:hsl(0,0%,30%);border:1px solid hsl(0,0%,35%)}
+QToggle{qproperty-text_color:hsl(0,0%,80%);qproperty-active_color: hsl(0,0%,40%)}
+QCircularProgressBar{qproperty-bg_color1:#808080;qproperty-bg_color2:#333333;qproperty-mask_color:rgb(51, 51, 51);qproperty-text_color:#cccccc;qproperty-text_bg_color:#333333}

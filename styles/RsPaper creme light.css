@@ -1,0 +1,78 @@
+/* RsPaper creme Light */
+*{color:hsl(30, 30%, 20%);font: 13px}
+#TopButtons{border-bottom:1px solid hsl(240, 1%, 75%)}
+#abrir,#salvar,#exportar,#novo_projeto,#preferencias,#modo_escuro{background-color:hsl(30, 30%, 80%);border:2px solid hsl(30, 30%, 80%);border-color:hsl(30, 30%, 80%);border-radius:8px;height:20px;padding:5px;width:95px}
+#abrir:hover,#salvar:hover,#exportar:hover,#novo_projeto:hover,#preferencias:hover,#modo_escuro:hover,#abrir:focus,#salvar:focus,#exportar:focus,#novo_projeto:focus,#preferencias:focus,#modo_escuro:focus{background-color:hsl(30, 30%, 85%);border-bottom:1px solid hsl(240, 1%, 75%)}
+#abrir:pressed,#salvar:pressed,#exportar:pressed,#novo_projeto:pressed,#preferencias:pressed,#modo_escuro:pressed{background-color:hsl(30, 30%, 78%);border-bottom:1px;border-top:1px solid hsl(240, 1%, 75%)}
+#ordenar:disabled,#artigos_selecionados:disabled,#artigos_interesse:disabled,#artigos_descartados:disabled,#estatisticas:disabled{background-color:hsl(30, 30%, 90%);border:1px solid hsl(30, 30%, 80%);}
+#ordenar,#artigos_selecionados,#artigos_interesse,#artigos_descartados,#estatisticas{background-color:hsl(30, 30%, 85%);border:1px solid hsl(30, 30%, 78%);border-radius:5px;height:25px;padding:5px;width:145px}
+#artigos_por_pagina:hover,#artigos_por_pagina:focus{border:1px solid hsl(30, 30%, 90%)}
+#ordenar:checked{background-color:hsl(30, 30%, 70%)}
+#artigos_selecionados:checked,#artigos_interesse:checked,#artigos_descartados:checked{border:2px solid hsl(30, 30%, 20%);padding:4px}
+#ordenar:hover,#ordenar:focus,#artigos_selecionados:hover,#artigos_interesse:hover,#artigos_descartados:hover,#artigos_selecionados:focus,#artigos_interesse:focus,#artigos_descartados:focus,#estatisticas:hover,#estatisticas:focus{border:1px solid hsl(30, 30%, 80%);background-color:hsl(30, 30%, 90%)}
+#ordenar:pressed,#artigos_selecionados:pressed,#artigos_interesse:pressed,#artigos_descartados:pressed{border:1px solid hsl(30, 30%, 80%);background-color:hsl(30, 30%, 80%)}
+#ordenar:pressed{background-color:hsl(30, 30%, 50%)}
+#ordenar{font: 14px; font-weight:600;height: 45px;}
+#article{background-color:hsl(30, 30%, 0%)}
+#pag_primeira,#pag_anterior,#pag_prox,#pag_ultima,#pag_atual{border-radius:5px;padding:3px}
+#pag_primeira:hover,#pag_anterior:hover,#pag_prox:hover,#pag_ultima:hover,#pag_atual:hover{background-color: hsl(30, 30%, 85%);border:1px solid hsl(30, 30%, 90%);border-bottom:1px solid hsl(30, 30%, 90%)}
+#pag_primeira:focus,#pag_anterior:focus,#pag_prox:focus,#pag_ultima:focus,#pag_atual:focus{border:1px solid hsl(30, 30%, 90%);border-bottom:1px solid hsl(30, 30%, 90%)}
+#pag_primeira:pressed,#pag_anterior:pressed,#pag_prox:pressed,#pag_ultima:pressed{background-color:hsl(30, 30%, 75%);border-bottom:1px;border-top:1px solid hsl(30, 30%, 70%)}
+#Artigos,#titulo_artigo,#autor_artigo,#ano_artigo,#citacoes_artigo{border:0;color:hsl(41, 53%, 20%)}
+#RolagemArtigos{background-color:hsl(30, 30%, 90%);border-radius:5px}
+#titulo_artigo{font: 11pt;font-weight:bold; text-decoration: underline}
+#like,#dislike{background-color:none;border-radius:10px;height:20px;padding:0;width:20px}
+#like:hover,#dislike:hover,#like:focus,#dislike:focus{border:1px solid hsl(30, 30%, 90%);padding:1px; background-color:hsl(30, 30%, 95%)}
+#line{border:0;border-bottom:1px solid hsl(30, 30%, 80%)}
+QScrollBar:vertical{background-color:hsl(30, 30%, 80%);border-radius:4px;margin:0 0 0 2px;width:10px}
+QScrollBar::handle:vertical,QScrollBar::handle:hover{background-color:hsl(30, 30%, 70%);border-radius:4px}
+QScrollBar::handle:hover{background-color:hsl(30, 30%, 95%)}
+QScrollBar::add-line:vertical,QScrollBar::sub-line:vertical,QScrollBar::add-page:vertical,QScrollBar::sub-page:vertical{background-color:none;border:none}
+#Abstract{background-color:hsl(30, 30%, 90%)}
+#Abstract #widget{border-top: 1px solid hsl(0,0%,20%)}
+#Abstract #titulo{color:hsl(41, 53%, 20%);font: 11pt;font-weight:bold; text-decoration: underline;}
+#Abstract #autor{color:hsl(101, 29%, 30%);font: 10.5pt}
+#Abstract #abstract_text{font: 10.5pt}
+#DefinirFiltro QCheckBox::indicator{background-color:hsl(30, 30%, 60%);border:1px solid hsl(30, 30%, 90%);border-radius:2px;height:13px;width:13px}
+#DefinirFiltro QCheckBox::indicator:checked{background-color:hsl(200, 90%, 50%);image: url(styles/light/check.png)} /* O endereço está correto para a compilação do autopytoexe em modo arquivo único */
+#textEdit{border:1px solid hsl(240, 1%, 75%);border-bottom:1px solid hsl(30, 30%, 20%);border-radius:5px}
+#Preferencias,#Pesquisar,#ok_button,#cancel_button,#apply_button{background-color:hsl(30, 30%, 80%);border:1px solid hsl(30, 30%, 90%);border-radius:5px;padding:5px}
+#Pesquisar{height:25px;width:125px}
+#ok_button,#cancel_button,#apply_button{width:70px}
+#Preferencias:hover,#Pesquisar:hover,#Preferencias:focus,#Pesquisar:focus,#ok_button:hover,#cancel_button:hover,#apply_button:hover,#ok_button:focus,#cancel_button:focus,#apply_button:focus{border:2px solid hsl(30, 30%, 95%);padding:4px}
+#Preferencias:pressed,#Pesquisar:pressed,#ok_button:pressed,#cancel_button:pressed,#apply_button:pressed{background-color:hsl(30, 30%, 90%);border:1px solid hsl(30, 30%, 95%)}
+#PesquisaAvancada{background-color:hsl(30, 30%, 90%);border:0;color:hsl(195, 75%, 30%);font-weight:600;height:20px;width:130px}
+#PalavrasChave,QComboBox,QLineEdit,QPushButton{background-color:hsl(30, 30%, 75%);border-radius:5px;color:hsl(30, 30%, 20%);padding:2px 5px}
+#PalavrasChave{background-color:hsl(30, 30%, 20%);border-radius:5px;color:hsl(30, 30%, 20%);padding:5px}
+#PalavrasChave{background-color: hsl(200, 90%, 60%)}
+#PalavrasChave:hover,#PalavrasChave:focus{background-color:hsl(200, 90%, 70%)}
+#PalavrasChave:pressed{background-color:hsl(200, 90%, 50%);color:hsl(30, 30%, 20%)}
+QComboBox{background-color:hsl(30, 30%, 75%);border:1px solid hsl(30, 30%, 85%);border-radius:5px;color:hsl(30, 30%, 20%);padding:2px 5px}
+QComboBox::drop-down{border:1px solid hsl(30, 30%, 85%);border-radius:5px;height:21px;width:21px; background-color: hsl(30, 30%, 80%)}
+QComboBox::down-arrow{image: url(styles/light/down.png)} /* O endereço está correto para a compilação do autopytoexe em modo arquivo único */
+QComboBox::drop-down:hover{background-color:hsl(30, 30%, 85%);border:1px solid hsl(30, 30%, 85%);border-bottom:1px solid hsl(30, 30%, 100%)}
+QComboBox::drop-down:pressed{border:1px solid hsl(30, 30%, 95%);background-color: hsl(30, 30%, 75%)}
+QComboBox QAbstractItemView{background-color:hsl(30, 30%, 80%);border:1px solid hsl(30, 30%, 85%);color:hsl(30, 30%, 20%)}
+QComboBox QAbstractItemView::item:disabled{color:hsl(30, 30%, 50%);text-align:right}
+QComboBox::separator{border:1px dotted hsl(30, 30%, 100%);height:1px}
+QLineEdit{border-bottom:1px solid hsl(30, 30%, 100%)}
+QPushButton{border:1px solid hsl(30, 30%, 100%);width:70px}
+QPushButton:hover,QPushButton:focus{border:2px solid hsl(30, 30%, 80%);padding:4px}
+QPushButton:pressed{background-color:hsl(30, 30%, 70%)}
+QProgressBar{border:1px solid hsl(30, 30%, 70%);border-radius:5px;color:hsl(30, 30%, 20%)}
+QProgressBar::chunk{background-color:hsl(30, 30%, 80%);border-radius:5px;}
+QTabWidget{background-color:hsl(30, 30%, 75%);border:none}
+QTabWidget::pane{background-color:hsl(30, 30%, 75%);border:1px solid hsl(30, 30%, 85%);top:-1px}
+QTabBar::tab{background-color:hsl(30, 30%, 70%);border:1px solid hsl(30, 30%, 85%);border-top-left-radius:4px;border-top-right-radius:4px;color:hsl(30, 30%, 20%);margin-right:1px;padding:4px}
+QTabBar::tab:selected{background-color:hsl(30, 30%, 75%);border-bottom-color:hsl(30, 30%, 75%)}
+QTabBar::tab:!selected{margin-top:2px}
+QTabBar::tab:hover{background-color:hsl(30, 30%, 90%)}
+#TelaPrincipal,#TopButtons,#Artigos,#DefinirFiltro{background-color:hsl(30, 30%, 90%)}
+#artigos_selecionados,#estatisticas,#label_artigos_por_pagina,#label_ordenados{margin-top:10px}
+#estatisticas{height: 45px;width: 125px;border:1px solid hsl(30, 30%, 70%);border-left:3px solid hsl(30, 30%, 70%);}
+#estatisticas:hover,#estatisticas:focus{border:1px solid hsl(30, 30%, 80%);border-left:3px solid hsl(30, 30%, 80%);background-color:hsl(30, 30%, 90%)}
+#estatisticas:pressed{border:1px solid hsl(30, 30%, 80%);border-left:3px solid hsl(30, 30%, 80%);background-color:hsl(30, 30%, 80%)}
+#pag_atual,#DefinirFiltro QTextEdit{background-color:hsl(30, 30%, 75%)}
+#like:pressed,#dislike:pressed,QMessageBox,QDialog,QProgressBar{background-color:hsl(30, 30%, 70%)}
+QToggle{qproperty-bg_color: hsl(30, 30%, 50%); qproperty-circle_color: hsl(30, 30%, 90%); qproperty-text_color: hsl(30, 30%, 20%)}
+QCircularProgressBar{qproperty-bg_color1: #a68059;qproperty-bg_color2: #c9b39c;qproperty-mask_color: #ede6de;qproperty-text_color: #423324;qproperty-text_bg_color: #c9b39c}
